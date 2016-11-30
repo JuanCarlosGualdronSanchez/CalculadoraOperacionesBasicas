@@ -1,0 +1,78 @@
+html{
+	display: flex;
+	justify-content: center;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+	background-size: 100vw 50vw;
+}
+#contenedor{
+	height: 26vw;
+	width: 35vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#pantalla{
+	height: 4.5vw;
+	width: 34.5vw;
+	background-color: white;
+	border-radius: 5%;
+	font-size: 3vw;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-end;
+}
+#teclado{
+	display: flex;
+	justify-content: space-around;
+}
+#numeros{
+	height: 20vw;
+	width: 30vw;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	justify-content: space-around;
+}
+#operaciones{
+	height: 20vw;
+	width: 10vw;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: space-around;
+}
+#numeros > div {
+	height: 3,5vw;
+	width: 8vw;
+	font-size: 3vw;
+	font-family: sans-serif;
+	border-radius: 5%;
+	text-align: center;
+	color: white;
+}
+#operaciones > div{
+	height: 3.4vw;
+	width: 4.5vw;
+	font-size: 3vw;
+	font-family: sans-serif;
+	text-align: center;
+	border-radius: 5%;
+	color: white;
+}
+div > #CL{
+	background-color: #E21C1C;
+}
+div > #SIGU{
+	background-color: #71B2F3;
+}
+div > #S{
+	background-color: #B0FF6E;
+	color: black;
+}
+#numeros > div:active{
+	background: #00ff00;
+}
+#operaciones > div:active{
+	background: #00ff00;
+}
